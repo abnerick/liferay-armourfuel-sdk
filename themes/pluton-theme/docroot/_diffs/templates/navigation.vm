@@ -1,0 +1,29 @@
+<div id="plu-navbar" class="plu-navbar">
+        <div class="plu-navbar-inner">
+            <div class="container">
+            
+                <a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
+                    <!-- img src="images/logo.png" width="120" height="40" alt="Logo" / -->
+					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+				</a>
+                
+                <!-- Navigation button, visible on small resolution -->
+                <button id="plu-btn-navbar" type="button" class= "btn-navbar" data-toggle="collapse" data-target="#plu-nav-collapse">
+                    <i class="icon-reorder"></i>
+                </button>
+                <!-- Main navigation -->
+                <div id="plu-nav-collapse" class="nav-collapse collapse pull-right">
+                    <ul class="nav" id="top-navigation">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#clients">Clients</a></li>        
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- End main navigation -->
+            </div>
+        </div>
+    </div>
+     
