@@ -50,7 +50,7 @@ p {
     min-height:70px;
 }
 
-.navbar-fixed-top {
+.plu-navbar .navbar-fixed-top {
     min-height:60px;
     height:60px;
     padding-top:0;
@@ -847,6 +847,11 @@ p.plu-info-mail {
         padding-left:0;
         padding-right:0;
     }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
     #plu-navbar.navbar-fixed-top, #plu-navbar.navbar-fixed-bottom {
         position: fixed;
     }
@@ -854,14 +859,17 @@ p.plu-info-mail {
         line-height: 20px;
         vertical-align: middle;
     }
-    .section {
-        padding-left:20px;
-        padding-right:20px;
-    }
+
     #plu-navbar.navbar-fixed-top, #plu-navbar.navbar-fixed-bottom, .navbar-static-top {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    #plu-navbar .container {
+        width: auto;
+        padding: 0px;
+    }
+
     .plu-navbar .nav-collapse {
         clear: both;
     }
@@ -899,6 +907,11 @@ p.plu-info-mail {
 	 #plu-navbar .btn-navbar {
 	   display: block;
 	 }
+
+     .ie.aui input[type='text'], .ie.aui input[type='email']{
+        width: 100%;
+        box-sizing: border-box;
+     }
 }
 @media (max-width: 767px) {
     p.plu-info-mail {

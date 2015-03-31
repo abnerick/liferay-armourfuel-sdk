@@ -55,6 +55,8 @@ jQuery(document).ready(function ($) {
         nextText: '<i class="icon-chevron-right"></i>'
     });
 
+    $('input, textarea').placeholder();
+
 	// Bind to scroll
     $(window).scroll(function () {
 
